@@ -1,0 +1,18 @@
+@import './main.scss';
+.User_ship{
+    .heard{
+        text-align: right;
+        padding: 10px 20px;
+        border-bottom: 1px solid #1E9FFF;
+    }
+    .List{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px 10px;
+        line-height: 26px;
+        ::v-deep{
+            .el-button--text{color: red;}
+        }
+    }
+}

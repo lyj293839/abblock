@@ -1,0 +1,33 @@
+@import './main.scss';
+.Contact{
+    text-align: left;
+    padding-bottom: 60px;
+    .text1{
+        margin-top: 0px;
+        line-height: 30px;
+    }
+    h2{
+        text-align: left;
+        color: $color4;
+        font-weight: 400;
+        margin-top: 30px;
+    }
+    ul{
+        margin-top: 60px;
+        font-size: 16px;
+        .text2{
+            font-weight: bold;
+        }
+    }
+    .text3{
+        margin: 40px 0 20px 0;
+        font-size: 16px;
+    }
+    .el-input{
+        width: 250px;
+        margin-right: 10px;
+    }
+    ::v-deep{
+        .el-button,.el-input__inner{border-radius: 4px;}
+    }
+}

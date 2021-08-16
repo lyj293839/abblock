@@ -1,0 +1,39 @@
+@import './main.scss';
+.Cart{
+    min-height: 820px;
+    ::v-deep{
+        .el-table{
+            margin: 10px 0 20px 0;
+            .el-button{
+                color: red;
+                font-size: 14px;
+            }
+            .el-input-number{
+                width: 120px;
+            }
+            .el-table__header{
+                th{
+                    background: $color1;
+                    color: white;
+                    font-weight: 400;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    
+    .make{
+        ::v-deep{
+            .el-button--danger{
+                background-color: #FF5722;
+                border-color: #FF5722;
+            }
+        }
+        .text{
+            font-weight: bold;
+            text-align: left;
+            width: 220px;
+            span{color: $color1;padding: 0px 3px;}
+        }
+    }
+}

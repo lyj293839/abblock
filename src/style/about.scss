@@ -1,0 +1,16 @@
+@import './main.scss';
+.about{
+    min-height: 800px;
+    .banner{margin-top: 10px;}
+    h2{
+        text-align: left;
+        color: $color4;
+        font-weight: 400;
+    }
+    p{
+        text-align: left;
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,26 @@
+@import './main.scss';
+.User{
+    text-align: left;
+    min-height: 820px;
+    .col_left{
+        text-align: center;
+        color: $color6;
+        li{
+            height: 45px;
+            line-height: 45px;
+            cursor: pointer;
+            border-bottom: 1px solid white;
+            background: #f8f8f7;
+            font-size: 14px;
+            &:hover{
+                color: white;
+                background: $color1;
+                transition: 0.5s;
+            }
+        }
+        .is_active{
+            color: white;
+            background: $color1;
+        }
+    }
+}

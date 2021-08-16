@@ -1,0 +1,52 @@
+@import './main.scss';
+.Category{
+    .title_item{margin-top: 30px;}
+    .title_item>h2{
+        font-size: 16px;
+    }
+    .text{
+        margin-top: 20px;
+        text-align: left;
+    }
+    .list{
+        li{
+            padding: 10px 0;
+            border-bottom: 1px solid $color7;
+            display: flex;
+            justify-content: space-between;
+            img{
+                margin-right: 20px;
+            }
+            .info{
+                width: 100%;
+                text-align: left;
+                margin-left: 30px;
+                p{
+                    margin: 0px;
+                    padding: 5px 0px;
+                    span{
+                        color: $color1;
+                        cursor: pointer;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .el-pagination{
+        margin: 40px 0px 20px 0px;
+    }
+    .prod_index{
+        margin-top: 10px;
+        min-height: 500px;
+        li{
+            text-align: left;
+            text-decoration: underline;
+            line-height: 24px;
+            cursor: pointer;
+            &:hover{
+                color: $color1;
+            }
+        }
+    }
+}

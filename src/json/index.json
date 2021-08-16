@@ -1,0 +1,191 @@
+{
+    "menuList":[
+        {
+            "name":"Home",
+            "path":"/",
+            "router_name":"home"
+        },{
+            "name":"About Us",
+            "path":"about",
+            "router_name":"about"
+        },{
+            "name":"Products",
+            "path":"products",
+            "router_name":"products"
+        },{
+            "name":"Support",
+            "path":"",
+            "router_name":""
+        },{
+            "name":"Contact Us",
+            "path":"node/contactUs",
+            "router_name":"contactUs"
+        }
+    ],
+    "Menu_Support":[
+        {
+            "name":"Ordering",
+            "path":"node/ordering",
+            "router_name":"ordering"
+        },{
+            "name":"Shipping Rates",
+            "path":"node/shipping",
+            "router_name":"shipping"
+        },{
+            "name":"Request for Quotation",
+            "path":"node/quotation",
+            "router_name":"quotation"
+        }
+    ],
+    "CAS_list":["1","2","3","4","5","6","7","8","9"],
+    "Chemical_list":["A","B","C","D","E","F","G","H","I","J",
+        "K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z",
+        "1","2","3","4","5","6","7","8","9"
+    ],
+    "MDL_list":["1","2","3","4","5","6","7","8","9"],
+    "Formula_list":["A","B","C","D","E","F","G","H","I","J",
+        "K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"],
+    "Weight_list":["100","200","300","400","500","600","700","800","900","1000",">1000"],
+    "Element_list":[
+        "H","Li","Be","B","C","N","O","F","Na","Mg","Al",
+        "Si","P","S","Cl","K","Ca","Sc","Ti","V","Cr","Mn",
+        "Fe","Co","Ni","Cu","Zn","Ga","Ge","As","Se","Br","Rb",
+        "Sr","Y","Zr","Nb","Mo","Ru","Rh","Pd","Ag","Cd","In",
+        "Sn","Sb","Te","I","Xe","Cs","Ba","La","Ce","Pr","Nd",
+        "Sm","Eu","Gd","Tb","Dy","Ho","Er","Tm","Yb","Lu","Hf",
+        "Ta","W","Re","Os","Ir","Pt","Au","Hg","Ti","Pb","Bi",
+        "Rn","Fr","Ac","Th","U","Np","Am","Cm","Bk","Cf","Es",
+        "Fm","No","Lr","Rf","Bh","Hs","Ds","Rg","Cn","Fi","Ts"
+    ],
+    "About_list":[
+        {
+            "name":"About Us",
+            "path":"/about",
+            "router_name":"about"
+        },{
+            "name":"News",
+            "path":"/news/index",
+            "router_name":"news"
+        },{
+            "name":"Terms & Conditions",
+            "path":"/node/terms_conditions",
+            "router_name":"terms_conditions"
+        },{
+            "name":"Site Map",
+            "path":"",
+            "router_name":"",
+            "href":"https://www.aablocks.com/sitemap.xml"
+        },{
+            "name":"Distributors",
+            "path":"/node/Distributors",
+            "router_name":"distributors"
+        }
+    ],
+    "Support_list":[
+        {
+            "name":"Request for Quotation",
+            "path":"/quotation",
+            "router_name":"quotation"
+        },{
+            "name":"Shipping Rates",
+            "path":"/node/shipping",
+            "router_name":"shipping"
+        },{
+            "name":"Ordering",
+            "path":"/node/ordering",
+            "router_name":"ordering"
+        }
+    ],
+    "Contact_form":["AA BLOCKS, INC.","9823 Pacific Heights Blvd., Suite F","San Diego, CA 92121","Tel:+1 858-523-8231","www.aablocks.com"],
+    "Shipping":[
+        [
+            {
+                "name":"Shipping Method",
+                "value":"Shipping Charge (up to 1 lb)"
+            },{
+                "name":"FedEx 2nd Day",
+                "value":"$35.00"
+            },{
+                "name":"FedEx Overnight Standard(Default)",
+                "value":"$40.00"
+            },{
+                "name":"FedEx Overnight Priority",
+                "value":"$55.00"
+            },{
+                "name":"FedEx Ground",
+                "value":"$20.00"
+            }
+        ],
+        [
+           {
+                "name":"Country",
+                "value":"Shipping fee (up to 1 lb)"
+            },{
+                "name":"Australia, Belgium, Brazil, China, Denmark, Finland,France, Germany, Isreal, Italy, Japan, Korea, Malaysia,Netherlands, New Zealand, Singapore,Spain, Sweden,Switzerland, Thailand, United Kingdom, Chile, Croatia,Czech Republic, Hungary, Lithuania, Romania, Poland,Slovakia, South Africa,Latvia",
+                "value":"$125.00"
+            },{
+                "name":"India (DHL)",
+                "value":"$145.00"
+            }
+        ],
+        [
+            {
+                "name":"HazMat Type",
+                "value":"HazMat Fee"
+            },{
+                "name":"Excepted Quantity",
+                "value":"$0.00"
+            },{
+                "name":"FedEx Ground",
+                "value":"$0.00"
+            },{
+                "name":"Inaccessible (Haz class 6.1), Domestic",
+                "value":"$45.00"
+            },{
+                "name":"Inaccessible (Haz class 6.1), International",
+                "value":"$70.00"
+            },{
+                "name":"Accessible (Haz class 3, 4, 5 or 8), Domestic",
+                "value":"$90.00"
+            },{
+                "name":"Accessible (Haz class 3, 4, 5 or 8), International",
+                "value":"$150.00"
+            }
+        ],
+        [
+            {
+                "name":"Order Type",
+                "value":"Handling Fee"
+            },{
+                "name":"Domestic Order",
+                "value":"$10.00"
+            },{
+                "name":"International Order",
+                "value":"$25.00"
+            }
+        ]
+    ],
+    "User_menu":[
+        {
+            "name":"Orders",
+            "path":"/user/order",
+            "router_name":"user_order"
+        },{
+            "name":"Shipping Address",
+            "path":"/user/deliveryaddr_list",
+            "router_name":"user_ship"
+        },{
+            "name":"Billing Address",
+            "path":"/user/billaddr_list",
+            "router_name":"user_bill"
+        },{
+            "name":"Account Setting",
+            "path":"/user/account",
+            "router_name":"user_account"
+        },{
+            "name":"Reset Password",
+            "path":"/user/resetpwd",
+            "router_name":"user_reset"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+@import './main.scss';
+.User_order{
+    .search{
+        text-align: right;
+        width: 100%;
+        .el-input{width: 350px;}
+        .el-button{width: 80px;}
+    }
+    table{
+        width: 100%;
+        .th_background{
+            background: $color7;
+        }
+        td{
+            min-height: 20px;
+            padding: 9px 10px;
+            line-height: 20px;
+            vertical-align:text-top;
+            p{
+                margin: 0px;
+                line-height: 20px;
+                span{
+                    margin-right: 20px;
+                    a{
+                        cursor: pointer;
+                        &:hover{
+                            color: $color1;
+                        }
+                    }
+                }
+            }
+            .el-button{
+                text-decoration: underline;
+                color: $color1;
+                margin: 0px;
+                padding: 0px;
+                min-height: auto;
+            }
+        }
+    }
+}

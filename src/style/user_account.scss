@@ -1,0 +1,10 @@
+@import './main.scss';
+.User_account{
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%);
+    padding: 20px 0;
+    margin-top: 20px;
+    .el-form{
+        width: 500px;
+        margin: 0px auto;
+    }
+}

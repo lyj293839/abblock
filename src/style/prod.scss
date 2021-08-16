@@ -1,0 +1,28 @@
+@import './main.scss';
+.prod{
+    padding-bottom: 30px;
+    h1{
+        text-align: left;
+        color: $color4;
+        font-weight: 400;
+        margin: 40px 0 20px;
+    }
+    h2{font-weight: 400;}
+    .prod_item{
+        margin-bottom: 30px;
+        .col_item{
+            border: 1px solid $color7;
+            min-height: 320px;
+            padding: 0 15px;
+            margin-top: 5px;
+            cursor: pointer;
+            p{
+                text-align: left;
+                &:hover{color: $color2;}
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+        }
+    }
+}

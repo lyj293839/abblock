@@ -1,0 +1,31 @@
+<template>
+<div>
+    <banner></banner>
+    <h2>Distributors</h2>
+</div>
+</template>
+
+<script>
+import banner from "@/components/banner.vue";
+import { provide  } from "vue";
+export default {
+    components:{
+      banner
+    },
+    setup(){
+        provide("banner_info", {
+            is_banner:true,
+            is_breadcrumb:true,
+            breadcrumb:[{name:"Distributors",path:''}]
+        });
+    },
+}
+</script>
+
+<style lang='scss' scoped>
+h2{
+    color: #3498db;
+    font-weight: 400;
+    text-align: left;
+}
+</style>

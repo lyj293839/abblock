@@ -1,0 +1,103 @@
+@import './main.scss';
+.top{
+    border-bottom: 1px solid #ddd;
+    a{
+        padding: 0 15px 0 30px;
+        color: #666;
+        height: 30px;
+        display: inline-block;
+        line-height: 30px;
+        text-decoration: none;
+    }
+    .unde{
+        color: #e0e0e0;
+        padding: 0 10px 0 10px;
+        display: inline-block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        font-weight: 700;
+    }
+    .el-button{
+        color: #333333;
+        font-size: 14px;
+        padding: 0px;
+        min-height: auto;
+        &:hover{
+            color: $color1;
+        }
+    }
+    .token_text{
+        i{
+            font-size: 16px;
+            color: $color1;
+            margin-right: 5px;
+        }
+    }
+}
+.search{
+    margin: 30px auto;
+    .el-button{
+        background: $color1;
+        border-color:$color1;
+        width: 133px;
+    }
+    .el-input{
+        width: 450px;
+    }
+}
+.menu{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    position: relative;
+    li{
+        width: 20%;
+        cursor: pointer;
+        background: $color1;
+        color: white;
+        padding: 0 20px;
+        border-left: 1px solid $color2;
+        position: relative;
+        &:hover .menu_item{display: block;}
+        .menu_item{
+            width: 600px;
+            position: absolute;
+            top: 40px;
+            left: 0px;
+            padding-top: 20px;
+            display: none;
+            z-index: 20;
+            .el-row{
+                border: 1px solid #d2d2d2;
+                box-shadow: 0 2px 4px rgb(0 0 0 / 12%);
+                background: white;
+                padding: 5px;
+                .el-col{
+                    text-align: left;
+                    padding-left: 20px;
+                    height: 40px;
+                    line-height: 40px;
+                    color: $colorfont;
+                    &:hover{background: lightgrey;}
+                }
+            }
+        }
+    }
+    &:hover .unde{display: block;}
+    .unde{
+        position: absolute;
+        bottom: 0px;
+        background: $color3;
+        width: 20%;
+        height: 5px;
+        display: none;
+        transition: 0.2s;
+        z-index: 10;
+    }
+}
+.el-message{
+    z-index: 9999 !important;
+}

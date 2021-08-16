@@ -1,0 +1,54 @@
+{
+    "Other_form":[
+        {
+            "name":"Technical Information",
+            "id":"1"
+        },{
+            "name":"Properties",
+            "id":"2"
+        },{
+            "name":"Literature",
+            "id":"3"
+        },{
+            "name":"Request for Quotation",
+            "id":"4"
+        },{
+            "name":"Q & A",
+            "id":"5"
+        }
+    ],
+    "Technical_list":[
+        {
+            "Catalog Number":{"value":""},
+            "Chemical Name":{"value":"" },
+            "CAS Number":{"value":"" },
+            "Molecular Formula":{"value":"" },
+            "Molecular Weight":{"value":"" },
+            "IUPAC Name":{"value":"" },
+            "InChI":{"value":"" },
+            "InChI Key":{"value":"" },
+            "SMILES":{"value":"" }
+        }
+    ],
+    "Properties_list":[
+        {
+            "Complexity":{"value":""},
+            "Compound Is Canonicalized":{"value":"" },
+            "Covalently-Bonded Unit Count":{"value":"" },
+            "Defined Atom Stereocenter Count":{"value":"" },
+            "Defined Bond Stereocenter Count":{"value":"" },
+            "Exact Mass":{"value":"" },
+            "Formal Charge":{"value":"" },
+            "Heavy Atom Count":{"value":"" },
+            "Hydrogen Bond Acceptor Count":{"value":"" },
+            "Hydrogen Bond Donor Count":{"value":""},
+            "Isotope Atom Count":{"value":""},
+            "Molecular Weight":{"value":""},
+            "Monoisotopic Mass":{"value":""},
+            "Rotatable Bond Count":{"value":""},
+            "Topological Polar Surface Area":{"value":""},
+            "Undefined Atom Stereocenter Count":{"value":""},
+            "Undefined Bond Stereocenter Count":{"value":""}
+        }
+    ]
+}

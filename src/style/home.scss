@@ -1,0 +1,58 @@
+@import './main.scss';
+.List{
+    margin-top: 30px;
+    .col_item{
+        border: 2px solid #e4e4e4;
+        border-radius: 6px;
+        box-shadow: 0 2px 4px 0 rgb(0 0 0 / 12%), 0 0 6px 0 rgb(0 0 0 / 4%);
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        div{width: 100%;text-align: center;}
+        h4{text-align: left;font-weight: normal;margin: 0px;padding-left: 10px;}
+    }
+}
+.Featured_list{
+    margin-bottom: 50px;
+    .col_item{
+        border: 2px solid #e4e4e4;
+        border-radius: 6px;
+        margin-top: 10px;
+        cursor: pointer;
+        img{width: 100%;}
+        .button_cas{
+            line-height: 30px;
+            height: 30px;
+            color: white;
+            background: $color1;
+            text-align: center;
+            cursor: pointer;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+        }
+    }
+}
+.foot_list{
+    table{
+        width: 100%;
+        text-align: left;
+        th{
+            width: 150px;
+            line-height: 35px;
+        }
+        td{
+            ul{
+                flex-wrap: wrap;
+                display: flex;
+                li{
+                    cursor: pointer;
+                    text-decoration: underline;
+                    margin-right: 10px;
+                    line-height: 35px;
+                }
+            }
+        }
+    }
+}
